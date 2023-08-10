@@ -1,0 +1,301 @@
+/* =====================home page responsive css start============================== */
+
+
+/* ============================1440px start======================== */
+@media (min-width: 1199px) and (max-width: 1600px) {
+    
+    /* ============================1440px end======================== */
+    }
+    
+    /* =============================1199px start====================== */
+    @media only screen and (max-width: 1199px){
+        
+    /* =============================1199px end====================== */
+    }
+    
+    
+    /* =============================1024px start====================== */
+    @media only screen and (max-width: 1024px){
+        
+    
+    /* =============================1024px end======================== */
+    }
+    
+    /* =============================991px start====================== */
+    @media only screen and (max-width: 991px){
+        
+        .header .navbar .collapse .navbar-nav .nav-item {
+            padding-left: 0;
+        }
+        .navbar-light .navbar-toggler-icon {
+            background: none;
+            color: #ffffffab;
+        }
+        .banner {
+            z-index: 1;
+            padding-top: 50px;
+        }
+        .banner .shape1, .shape2 {
+            z-index: -1;
+        }
+        .com_detl {
+            padding: 80px 0;
+        }
+        .com_detl .detl_wrap {
+            justify-content: center;
+            row-gap: 35px;
+        }
+        .how_work {
+            padding: 80px 0;
+        }
+        .app_icon {
+            padding-top: 0;
+            padding-bottom: 70px;
+        }
+        .app_icon .icon_list {
+            margin-top: 50px;
+        }
+        .favourite {
+            padding-top: 0;
+            padding-bottom: 70px;
+        }
+        .favourite .titel {
+            margin-bottom: 50px;
+        }
+        .favourite .favrt_wrap .box_wrap {
+            padding: 30px 10px;
+        }
+        .get_app {
+            padding: 100px 0;
+        }
+        .get_app .get_wrap {
+            justify-content: center;
+            row-gap: 35px;
+        }
+        .get_app .get_wrap .right {
+            text-align: center;
+            padding-left: 0;
+            padding-top: 40px;
+        }
+        .get_app .get_wrap .right h3 {
+            margin-bottom: 20px;
+        }
+        .get_app .get_wrap .right p {
+            font-size: 20px;
+            line-height: 1.2;
+            margin: 0;
+        }
+        .get_app .get_wrap .right .download_btn {
+            justify-content: center;
+        }
+        .footer {
+            padding: 0 0 80px 0;
+        }
+        .footer .footer_wrap .ftr_box {
+            text-align: center;
+        }
+    /* =============================991px end======================== */
+    }
+    
+    
+    /* =============================767px start====================== */
+    @media only screen and (max-width: 767px){
+        .banner {
+            padding-top: 0;
+        }
+        .banner .bnr_titel h1 {
+            font-size: 50px;
+            line-height: 1.2;
+        }
+        .rabbit .rabbit_wrap .left {
+            margin: 0 auto;
+        }
+        .rabbit .rabbit_wrap {
+            row-gap: 70px;
+        }
+        .how_work h2 {
+            font-size: 35px;
+            line-height: 1.2;
+        }
+        .how_work .work_wrap {
+            margin-top: 35px;
+        }
+        .how_work .work_wrap .work_detl {
+            justify-content: center;
+            row-gap: 45px;
+        }
+        .how_work .work_wrap .work_detl .titel {
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+        }
+        .how_work .work_wrap .work_detl .mob_img {
+            width: 100%;
+        }
+        .how_work .work_wrap .work_detl .titel h4 {
+            font-size: 30px;
+            line-height: 1.2;
+        }
+        .how_work .work_wrap .work_detl .titel p {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .favourite .titel h2 {
+            font-size: 35px;
+        }
+        .app_icon h2 {
+            font-size: 35px;
+            line-height: 1.2;
+        }
+        .app_icon {
+            padding-bottom: 45px;
+        }
+        .get_app .get_wrap .right h3 {
+            margin-bottom: 20px;
+        }
+        .get_app .get_wrap .right .download_btn {
+            margin-top: 30px;
+        }
+        .footer .footer_wrap .ftr_box .ftr_content li {
+            margin-top: 15px;
+        }
+        
+       
+    /* =============================767px end======================== */
+    }
+    
+    
+    /* =============================575px start====================== */
+    @media only screen and (max-width: 575px){
+        
+        .banner .bnr_titel h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        .rabbit .rabbit_wrap .right::before {
+            width: 100%;
+            height: 100%;
+        }
+        .rabbit .rabbit_wrap .left h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .rabbit .rabbit_wrap .left .rab_cont .icon i {
+            font-size: 30px;
+        }
+        .rabbit .rabbit_wrap .left .rab_cont .text p {
+            font-size: 16px;
+        }
+        .how_work {
+            padding: 60px 0;
+        }
+        .how_work .work_wrap .work_detl .mob_img::before {
+            width: 100%;
+            height: 100%;
+        }
+        .how_work h2 {
+            font-size: 30px;
+            margin: 0;
+        }
+        .how_work .work_wrap {
+            margin-top: 20px;
+        }
+        .how_work .work_wrap .work_detl .titel h4 {
+            font-size: 25px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .how_work .work_wrap .work_detl .titel p {
+            font-size: 16px;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .app_icon h2 {
+            font-size: 30px;
+        }
+        .app_icon .icon_list {
+            margin-top: 25px;
+        }
+        .app_icon {
+            padding-bottom: 60px;
+        }
+        .favourite .titel {
+            margin-bottom: 40px;
+        }
+        .favourite .titel h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+        .get_app .get_wrap .right h3 {
+            font-size: 30px;
+        }
+        .get_app .get_wrap .right p {
+            font-size: 16px;
+        }
+        .get_app .get_wrap .right .download_btn {
+            margin-top: 30px;
+        }
+        .get_app .get_wrap .left .ph_img .ph_screen {
+            padding: 0 0 40px 0;
+        }
+        .get_app {
+            padding: 70px 0;
+        }
+        .get_app .get_wrap .right .download_btn a {
+            padding-right: 10px;
+        }
+        .get_app .get_wrap .right .download_btn a img {
+            width: 160px;
+            height: 45px;
+            object-fit: contain;
+        }
+        .footer .logo_sicon {
+            justify-content: center;
+            row-gap: 25px;
+            padding-bottom: 30px;
+        }
+        .footer .logo_sicon .ftr_logo {
+            max-width: 100%;
+        }
+        .footer .logo_sicon .socal_icon {
+            width: 100%;
+        }
+        .footer .logo_sicon .socal_icon .icon_wrap {
+            justify-content: center;
+        }
+        .footer .footer_wrap {
+            row-gap: 25px;
+        }
+        .footer .footer_wrap .ftr_box h4 {
+            margin-bottom: 10px;
+        }
+        .footer .footer_wrap .ftr_box .ftr_content li {
+            margin-top: 5px;
+        }
+        .footer .footer_wrap .ftr_box .ftr_content li a {
+            line-height: 22px;
+        }
+    /* =============================575px end======================== */
+    }
+    
+    /* =============================480px start====================== */
+    @media only screen and (max-width: 480px){
+        .banner .bnr_titel h1 {
+            font-size: 38px;
+        }
+        .banner .bnr_titel p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .com_detl {
+            padding: 60px 0;
+        }
+        .banner .shape1, .shape2 {
+            display: none;
+        }
+        .banner .bnr_titel {
+            padding-bottom: 40px;
+        }
+        
+    /* =============================480px end======================== */
+    }

@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+  }
+  
+  html {
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #252524;
+    letter-spacing: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.81;
+    margin: 0;
+    padding: 0;
+  }
+  .h0 span,.h1 span,.h2 span,.h3 span,.h4 span,.h5 span,h1 span,h2 span,h3 span,h4 span,h5 span,.h0 i,.h1 i,.h2 i,.h3 i,.h4 i,.h5 i,h1 i,h2 i,h3 i,h4 i,h5 i,.h0 em,.h1 em,.h2 em,.h3 em,.h4 em,.h5 em,h1 em,h2 em,h3 em,h4 em,h5 em {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  
+  }
+  
+  h1, h2, h3, h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+  display: inherit;
+  }
+  
+  p{
+      margin:0 0 15px 0;
+      font-family: 'Poppins', sans-serif;
+  }
+  p:last-child{
+      margin-bottom:0;
+  }
+  p:empty{
+      display:none;
+  }
+  
+:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* ========================header css start=========================== */
+.header {
+    background: #000;
+    padding: 16px 0;
+    position: relative;
+}
+.header .navbar {
+    padding: 0;
+    background: transparent !important;
+}
+.header .navbar .collapse  {
+    justify-content: space-between !important;
+}
+.header .navbar .collapse .navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+.header .navbar .collapse .navbar-nav {
+    margin: 0 auto;
+}
+.header .navbar .collapse .navbar-nav .nav-item {
+    padding-left: 50px;
+}
+.header .navbar .collapse .navbar-nav .nav-item:first-child {
+    padding-left: 0;
+}
+.header .navbar .collapse .navbar-nav .nav-item a {
+    display: inline-block;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    position: relative;
+    transition: all 0.45s linear;
+}
+.header .navbar .collapse .navbar-nav .nav-item a:hover {
+    color: #55FE66;
+}
+.header .navbar .collapse .navbar-nav .nav-item a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #55FE66;
+    transition: .5s;
+    opacity: 0;
+}
+.header .navbar .collapse .navbar-nav .nav-item a:hover::before{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}
+.header .navbar .collapse .navbar-nav .nav-item a:hover::after{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}
+.header .navbar .collapse .navbar-nav .nav-item a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background: #55FE66;
+    transition: .5s;
+    opacity: 0;
+}
+.header .navbar .collapse .search_btn button {
+    width: 100px;
+    height: 40px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #55FE66;
+    border-radius: 6px;
+    background: #55FE66;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+}
+.header .navbar .collapse .search_btn button:hover {
+    color: #55FE66;
+    background: transparent;
+}
+/* ========================header css end=========================== */
+
+/* ========================banner css start=========================== */
+.banner {
+    background: #000;
+    position: relative;
+    padding-top: 100px;
+}
+.banner .shape1 {
+    position: absolute;
+    top: 16%;
+    left: 0;
+}
+.banner .shape2 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+}
+.banner .shape1, .shape2 img{
+    filter: drop-shadow(0px 0px 49.19999313354492px #55FE66) drop-shadow(0px 0px 98.39998626708984px #55FE66)  drop-shadow(0px 0px 98.39998626708984px #55FE66);
+}
+.banner .bnr_titel {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.banner .bnr_titel h1 {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 800;
+    letter-spacing: -1.08px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.banner .bnr_titel span {
+    display: block;
+    font-weight: 800;
+}
+.banner .bnr_titel p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner .banner_img img {
+    margin: 0 auto;
+}
+
+/* ========================banner css end=========================== */
+
+/* ========================detail css start=========================== */
+.com_detl {
+    background: #000;
+    padding: 150px 0;
+}
+.com_detl .detl_wrap .item_box i {
+    font-size: 35px;
+    color: #55FE66;
+}
+.com_detl .detl_wrap .item_box h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.com_detl .detl_wrap .item_box p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.com_detl .detl_wrap .read_btn {
+    margin-top: 25px;
+}
+.com_detl .detl_wrap .read_btn a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    padding: 5px 10px;
+}
+.com_detl .detl_wrap .read_btn a:hover {
+    color: #55FE66;
+    box-shadow: 0 0 10px 0 #55FE66 inset, 0 0 20px 2px #55FE66;
+    border: 3px solid #55FE66;
+}
+/* ========================detail css end=========================== */
+
+/* ========================all on rabbit css start=========================== */
+.rabbit {
+    background: #1A1A1A;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.rabbit .rabbit_wrap {
+    align-items: center;
+}
+
+.rabbit .rabbit_wrap .left {
+    max-width: 470px;
+}
+.rabbit .rabbit_wrap .left h2 {
+    color: #FFF;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 64px;
+}
+.rabbit .rabbit_wrap .left h2 span {
+    font-weight: 800;
+    color: #55FE66;
+}
+.rabbit .rabbit_wrap .left .rab_cont {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.rabbit .rabbit_wrap .left .rab_cont:nth-child(2) {
+    margin-top: 0;
+}
+.rabbit .rabbit_wrap .left .rab_cont .icon i {
+    font-size: 40px;
+    color: #fff;
+}
+.rabbit .rabbit_wrap .left .rab_cont:hover .icon i {
+    color: #55FE66;
+}
+.rabbit .rabbit_wrap .left .rab_cont .text {
+    padding-left: 30px;
+}
+.rabbit .rabbit_wrap .left .rab_cont .text p {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.rabbit .rabbit_wrap .right {
+    position: relative;
+    z-index: 1;
+}
+.rabbit .rabbit_wrap .right::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    height: 1100px;
+    background: url(../images/Light.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.rabbit .rabbit_wrap .right img {
+    width: 100%;
+}
+/* ========================all on rabbit css end=========================== */
+
+/* ========================how it work css start=========================== */
+.how_work {
+    background: #000;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.how_work h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.how_work .work_wrap {
+    margin-top: 50px;
+}
+.how_work .work_wrap .work_detl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.how_work .work_wrap .work_detl .titel {
+    width: 60%;
+    padding-left: 50px;
+}
+.how_work .work_wrap .work_detl .titel h4 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800;
+}
+.how_work .work_wrap .work_detl .titel p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.how_work .work_wrap .work_detl .titel a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #55FE66;
+    background: #55FE66;
+    border-radius: 5px;
+    transition: all 0.45s ease-in-out;
+    padding: 8px;
+}
+.how_work .work_wrap .work_detl .titel a:hover {
+    color: #55FE66;
+    background: transparent;
+}
+.how_work .work_wrap .work_detl .mob_img {
+    width: 40%;
+    position: relative;
+    z-index: 1;
+}
+.how_work .work_wrap .work_detl .mob_img::before {
+    content: "";
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 1100px;
+    background: url(../images/Light.png) no-repeat center;
+    z-index: -1;
+    background-size: cover;
+}
+.how_work .work_wrap .work_detl .mob_img img {
+    max-width: 100%;
+    max-height: 635px;
+    margin:0 auto;
+}
+.how_work .work_wrap .slick-list {
+    margin-left: 150px;
+}
+.how_work .work_wrap  .prev-arrow {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+    padding: 0;
+}
+.how_work .work_wrap  .next-arrow {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    padding: 0;
+}
+.how_work .work_wrap  .prev-arrow, .next-arrow {
+    background: transparent;
+    color: #ffffffc1;border: none;
+    font-size: 25px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.how_work .work_wrap .slick-dots {
+    position: absolute;
+    bottom: 39%;
+    left: 40px;
+    display: block;
+    /* transform: translateY(-50%); */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+.how_work .work_wrap .slick-dots li {
+    margin-bottom: 48px;
+}
+.how_work .work_wrap .slick-dots li:last-child {
+    margin-bottom: 0;
+}
+.how_work .work_wrap .slick-dots .slick-active button:before{
+    color: #55FE66 !important;
+    border: 2px solid #55FE66 !important;
+}
+.how_work .work_wrap .slick-dots li:first-child button:before {
+    content: "\f08b";
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    line-height: 30px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.how_work .work_wrap .slick-dots li:nth-child(2) button:before {
+    content: "\f17a";
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    line-height: 30px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.how_work .work_wrap .slick-dots li:last-child button:before {
+    content: "\f021";
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    line-height: 30px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+/* ========================how it work css end=========================== */
+
+/* ========================all app icon css start=========================== */
+.app_icon {
+    background: #000;
+    padding: 100px 0;
+}
+.app_icon h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.app_icon h2 span {
+    color: #55FE66;
+    font-weight: 800;
+}
+.app_icon .icon_list {
+    margin-top: 96px;
+}
+.app_icon .icon_list .comp_logo1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.app_icon .icon_list .comp_logo1 li {
+    padding-left: 10px;
+}
+.app_icon .icon_list .comp_logo1 li:nth-child(odd) {
+    margin-bottom: 25px;
+}
+.app_icon .icon_list .comp_logo1 li:first-child {
+    padding-left: 0;
+}
+.app_icon .icon_list .comp_logo2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+}
+.app_icon .icon_list .comp_logo2 li {
+    padding-left: 10px;
+}
+.app_icon .icon_list .comp_logo2 li:first-child {
+    padding-left: 0;
+}
+.app_icon .icon_list .comp_logo1 img {
+    width: 62px;
+    height: 62px;
+}
+.app_icon .icon_list .comp_logo2 img {
+    width: 62px;
+    height: 62px;
+}
+/* ========================all app icon css end=========================== */
+
+/* ========================favourite css start=========================== */
+.favourite {
+    background: #000;
+    padding: 100px 0;
+}
+.favourite .titel h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.favourite .titel {
+    margin-bottom: 100px;
+}
+.favourite .favrt_wrap .box_wrap {
+    background: #333;
+    border-radius: 16px;
+    padding: 35px;
+}
+.favourite .favrt_wrap .box_wrap .wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.favourite .favrt_wrap .box_wrap .wraper .favrt_box {
+    display: flex;
+    align-items: center;
+}
+.favourite .favrt_wrap .box_wrap .wraper .favrt_box .icon img {
+    width: 40px;
+}
+.favourite .favrt_wrap .box_wrap .wraper .favrt_box .text {
+    padding-left: 15px;
+}
+.favourite .favrt_wrap .box_wrap .wraper .favrt_box .text h5 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.favourite .favrt_wrap .box_wrap .wraper .favrt_box .text p {
+    color: #B3B3B3;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.favourite .favrt_wrap .box_wrap .wraper .persentage h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.favourite .favrt_wrap .box_wrap .wraper .persentage p{
+    color: #F00;
+    font-size: 12px;
+    font-weight: 500;
+}
+.favourite .favrt_wrap .favrt_item:nth-child(2) .box_wrap .wraper .persentage p {
+    color: #55FE66;
+}
+.favourite .favrt_wrap .box_wrap .trnd_img {
+    padding: 56px 0;
+}
+.favourite .favrt_wrap .box_wrap .trnd_img img {
+    width: 100%;
+}
+.favourite .favrt_wrap .box_wrap .buy_btn a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: #55FE66;
+    border: 2px solid #55FE66;
+    border-radius: 6px;
+    transition: all 0.45s ease-in-out;
+    padding: 10px 70px;
+}
+.favourite .favrt_wrap .box_wrap .buy_btn a:hover {
+    background: transparent;
+    color: #fff;
+}
+/* ===============favourite slider css start==================== */
+.favourite .favrt_wrap {
+    margin-bottom: 0;
+}
+.favourite .favrt_wrap .prev-arrow {
+    position: absolute;
+    bottom: -45px;
+    left: 44%;
+    transform: translate(-50% -50%);
+}
+.favourite .favrt_wrap .next-arrow {
+    position: absolute;
+    right: 44%;
+    bottom: -45px;
+    transform: translate(-50% -50%);
+}
+.favourite .favrt_wrap .prev-arrow, .favourite .favrt_wrap .next-arrow {
+    background: transparent;
+    border: none;
+    color: #9999;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0;
+}
+
+.favourite .favrt_wrap .slick-dots {
+    bottom: -40px;
+}
+.favourite .favrt_wrap .slick-dots li button:before {
+    color: #55FE66;
+    font-size: 45px;
+}
+/* ===============favourite slider css end==================== */
+
+/* ========================favourite css end=========================== */
+
+/* ========================get rabbit app css start=========================== */
+.get_app {
+    background: #000;
+    padding: 200px 0;
+}
+.get_app .get_wrap {
+    align-items: center;
+}
+.get_app .get_wrap .left img {
+    margin: 0 auto;
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 130.999999px #55fe6659) drop-shadow(0px 0 66.999992px #55fe6659);
+}
+.get_app .get_wrap .left .ph_img {
+    position: relative;
+}
+.get_app .get_wrap .left .ph_img .ph_screen {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 30px 50px 30px;
+}
+.get_app .get_wrap .left .ph_img .ph_screen h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    margin: 0;
+}
+.get_app .get_wrap .left .ph_img .ph_screen h6 {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.get_app .get_wrap .left .ph_img .ph_screen p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    margin: 0;
+}
+.get_app .get_wrap .left .ph_img .ph_screen p span {
+    display: block;
+}
+.get_app .get_wrap .left .ph_img .ph_screen .ph_btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.get_app .get_wrap .left .ph_img .ph_screen .ph_btn a {
+    display:block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid #55FE66;
+    color: #55FE66;
+    border-radius: 16px;
+    transition: all 0.45s ease-in-out;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+.get_app .get_wrap .left .ph_img .ph_screen .ph_btn a:hover {
+    background: #55FE66;
+    color: #000;
+}
+.get_app .get_wrap .left .ph_img .ph_screen .ph_btn a:last-child {
+    background: #55FE66;
+    color: #000;
+    margin-bottom: 0;
+}
+.get_app .get_wrap .left .ph_img .ph_screen .ph_btn a:last-child:hover {
+    background: transparent;
+    color: #55FE66;
+}
+.get_app .get_wrap .right {
+    padding-left: 65px;
+}
+.get_app .get_wrap .right h3 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.get_app .get_wrap .right h3 span {
+    font-weight: 800;
+    color: #55FE66;
+}
+.get_app .get_wrap .right p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.get_app .get_wrap .right .download_btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.get_app .get_wrap .right .download_btn a img {
+    width: 217px;
+    height: 64px;
+}
+.get_app .get_wrap .right .download_btn a {
+    display: inline-block;
+    padding-right: 35px;
+}
+.get_app .get_wrap .right .download_btn a:last-child {
+    padding-right: 0;
+}
+/* ========================get rabbit app css end=========================== */
+
+/* ========================footer css start=========================== */
+.footer {
+    background: #000;
+    padding: 80px 0;
+}
+.footer .logo_sicon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.footer .logo_sicon .socal_icon .icon_wrap {
+    display: flex;
+}
+.footer .logo_sicon .socal_icon .icon_wrap li {
+    padding-left: 20px;
+}
+.footer .logo_sicon .socal_icon .icon_wrap li:first-child {
+    padding-left: 0;
+}
+.footer .logo_sicon .socal_icon .icon_wrap li a {
+    display: inline-block;
+    font-size: 25px;
+    color: #999;
+    transition: all 0.6s;
+}
+.footer .logo_sicon .socal_icon .icon_wrap li a:hover {
+    color: #55FE66;
+}
+
+.footer .footer_wrap .ftr_box h4 {
+    color: #999;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.footer .footer_wrap .ftr_box .ftr_content {
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer_wrap .ftr_box .ftr_content li {
+    margin-top: 24px;
+}
+.footer .footer_wrap .ftr_box .ftr_content li:first-child {
+    margin-top: 0;
+}
+.footer .footer_wrap .ftr_box .ftr_content li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #999;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* ========================footer css end=========================== */
